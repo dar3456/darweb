@@ -1,0 +1,46 @@
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  /*font-family: placeholder: */
+  background-color: #00FFB9;
+}
+h1 {
+  margin: 0;
+  padding: 10px 10px;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px white;
+}
+
+p, li {
+  margin: 0;
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+#my-id{ /*<p id="my-id"> or <a id="my-id">*/
+    
+}
+.my-class{ /*Selects <p class="my-class"> and <a class="my-class">*/
+    
+}
+/*a:hover{ /*Selects <a>, but only when the mouse pointer is hovering over the link.*/
+	/*color:#33FF00;8}*/
+#my-1:hover{ /*Selects <a>, but only when the mouse pointer is hovering over the link.*/
+	color:#33FF00;
+    
+}
+/*
+img[src]{}
+Selects <img src="myimage.png"> but not <img>
+*/
